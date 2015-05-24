@@ -111,6 +111,7 @@ class SkookumRemoteRuntimeBase : public SkookumRemoteBase
 
   // Events
 
+    void         on_cmd_authenticate();
     void         on_cmd_debug_preferences(const void ** binary_pp);
     virtual void on_cmd_freshen_compiled_reply(eCompiledState state);
     void         on_cmd_hierarchy_update(const void ** binary_pp);

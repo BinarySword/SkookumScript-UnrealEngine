@@ -92,6 +92,7 @@ class SkookumRemoteBase
 
         Command_version,                 // I->R cmd_version()
         Command_version_reply,           // R->I cmd_version_reply()
+        Command_authenticate,            // I->R cmd_authenticate()
         Command_preferences,             // I->R cmd_preferences()
 
         Command_print,                   // C->C cmd_print()
